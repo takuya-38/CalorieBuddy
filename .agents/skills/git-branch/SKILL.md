@@ -31,10 +31,10 @@ description: 命名規則に従ったGitブランチの作成。Issue番号と�
 
 ## 入出力例
 
-| 日本語入力 | ブランチ名 |
-|---|---|
-| 食事入力画面を作る | `feature/meal_input` |
-| #3 ダッシュボードを実装 | `feature/#3_dashboard` |
-| カロリー計算のバグ修正 | `fix/calorie_calculation` |
-| #5 DB スキーマ修正 | `fix/#5_db_schema` |
-| READMEの更新 | `docs/update_readme` |
+| 日本語入力              | ブランチ名                |
+| ----------------------- | ------------------------- |
+| 食事入力画面を作る      | `feature/meal_input`      |
+| #3 ダッシュボードを実装 | `feature/#3_dashboard`    |
+| カロリー計算のバグ修正  | `fix/calorie_calculation` |
+| #5 DB スキーマ修正      | `fix/#5_db_schema`        |
+| READMEの更新            | `docs/update_readme`      |
