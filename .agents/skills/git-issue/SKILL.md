@@ -1,6 +1,6 @@
 ---
 name: git-issue
-description: "GitHub Issue の作成。プロジェクトの docs/ 配下の設計ドキュメント（spec.md, issues.md 等）を参照し、Issue テンプレートに沿った Issue を作成する。トリガー: ユーザーが /git-issue, Issue作って, Issueを立てて と言った時。"
+description: 'GitHub Issue の作成。プロジェクトの docs/ 配下の設計ドキュメント（spec.md, issues.md 等）を参照し、Issue テンプレートに沿った Issue を作成する。トリガー: ユーザーが /git-issue, Issue作って, Issueを立てて と言った時。'
 ---
 
 # git-issue
@@ -88,10 +88,10 @@ blocked by #N（依存 Issue がある場合のみ）
 
 ## 入出力例
 
-| ユーザー入力 | 動作 |
-|---|---|
-| `P0-1` | `docs/issues.md` の P0-1 セクションを読み、Issue 作成 |
-| `Phase 0 全部作って` | P0-1, P0-2, P0-3 を依存順に1件ずつ確認→作成 |
-| `食事入力画面のIssue` | issues.md から P2-1 を特定し、Issue 作成 |
-| `P1-2 カロリー計算` | issues.md の P1-2 セクションを読み、Issue 作成 |
-| `体重記録の画面を作るIssue` | issues.md から P1-3 を特定し、Issue 作成 |
+| ユーザー入力                | 動作                                                  |
+| --------------------------- | ----------------------------------------------------- |
+| `P0-1`                      | `docs/issues.md` の P0-1 セクションを読み、Issue 作成 |
+| `Phase 0 全部作って`        | P0-1, P0-2, P0-3 を依存順に1件ずつ確認→作成           |
+| `食事入力画面のIssue`       | issues.md から P2-1 を特定し、Issue 作成              |
+| `P1-2 カロリー計算`         | issues.md の P1-2 セクションを読み、Issue 作成        |
+| `体重記録の画面を作るIssue` | issues.md から P1-3 を特定し、Issue 作成              |
