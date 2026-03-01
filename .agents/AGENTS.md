@@ -70,7 +70,7 @@ GEMINI_API_KEY=        # Google Gemini API key
 
 ## Workflow
 
-- PRは作らない（自分専用）。Issue → feature branch → 実装 → lint/build → ff-only merge → push
+- Issue → feature branch → 実装 → lint/build → PR作成 → セルフマージ
 - コミット: `<type>: <日本語サマリー>`（25文字以内）
 - ブランチ: `{prefix}/#{issue}_{feature}`
 - DB変更時: `drizzle-kit generate` → SQL をコミット → `drizzle-kit migrate`
