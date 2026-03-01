@@ -32,3 +32,10 @@
 ## 7. テスト方針（MVP） → [design-test.md](./design-test.md)
 - [x] テスト対象を `lib/calc.ts` に限定
 - [x] Vitest + 最低限ケース（BMR / METs / 歩数 / 収支判定境界）を定義
+
+## 8. AI駆動開発ワークフロー → [design-ai-workflow.md](./design-ai-workflow.md)
+- [x] TAKT セットアップ手順
+- [x] GitHub Issue 分割（Phase 0〜3、14 Issue）
+- [x] Issue テンプレート・記述ルール
+- [x] TAKT ワークフロー設定（ピース・ペルソナ）
+- [x] 開発フロー全体像（TAKT / Claude Code 直接の使い分け）
